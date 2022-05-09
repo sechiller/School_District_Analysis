@@ -18,4 +18,21 @@
 
 ## School District Analysis Summary
 
-This election script can easily be used - with slight modifications - to summarize election data for any type of election. For example, if this was a city election instead of a county election, the code could be easily updated by replacing the word "county" with "city". You would only need to verify that the city name was in the second column of the provided data - or make a small update to the code to refer to the correct column. Similarily you could update the code for a election for a local bill instead of a candidate. You would only need to replace the word "candidate" with "bill" in the code, and verify that the bill name was in the third column of the provided data - or make a small update to the code to refer to the correct column.
+The largest changes to the data are seen in looking at data summarized at the school level and the grade level and focusing on THS and the 9th grade. When looking at the THS ninth grade reading scores you now seen NaN instead of 83.72885. When looking at te THS ninth grade math scores, you now see NaN instead of 83.59002.
+
+Math Scores, updated : ![image](https://user-images.githubusercontent.com/103475613/167325317-6d81a54d-ee63-4e85-9bdf-f6aea53a4915.png)
+
+Reading Scores, updated : 
+![image](https://user-images.githubusercontent.com/103475613/167325302-292ce48d-4b9d-4e70-9e27-a6fa9f61b90e.png)
+
+Another important thing to note is in the slight changes to the data that is grouped by spending ranges by student and school size. THS has 1635 total students and a per student budget of $638.00. By excluding the scores, the average scores in the Medium (1000 - 1999) school size and $631 - 645 spending per student groupings went down slightly. When rounding to the nearest tenth, you will not see these differences as they are very minor.
+
+Spending Ranges, updated, not rounded:
+![image](https://user-images.githubusercontent.com/103475613/167326148-9905a4b9-9ee3-4954-a045-ed3be0e46d15.png)
+
+
+School Size, updated, not rounded:
+![image](https://user-images.githubusercontent.com/103475613/167326157-581e0d28-afbf-496b-b6a9-e10b436ed8dc.png)
+
+
+
